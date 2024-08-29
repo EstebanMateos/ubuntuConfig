@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Copier .bash_aliases et .scripts/ dans le répertoire personnel
-cp ../config/.bash_aliases ~/.bash_aliases
-cp -r ../config/.scripts ~/.scripts
+cp ./config/.bash_aliases ~/.bash_aliases
+cp -r ./config/.scripts ~/.scripts
 
 # Ajouter la ligne pour sourcer .bash_aliases si elle n'est pas déjà présente
 line_to_add="if [ -f ~/.bash_aliases ]; then\n    . ~/.bash_aliases\nfi"

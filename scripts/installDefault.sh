@@ -7,7 +7,7 @@ xdg-settings set default-web-browser firefox.desktop
 sudo update-alternatives --set x-terminal-emulator /usr/bin/tilix
 
 # Charger la configuration de Tilix
-dconf load /com/gexperts/Tilix/ < ../config/tilix_config.json
+dconf load /com/gexperts/Tilix/ < ./config/tilix_config.json
 
 # Épingler des applications sur la barre latérale
 apps_to_pin=(

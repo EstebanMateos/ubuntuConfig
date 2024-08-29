@@ -35,8 +35,8 @@ code --install-extension ms-vscode-remote.remote-explorer  # Remote Explorer
 
 SETTINGS_PATH="$HOME/.config/Code/User/settings.json"
 mkdir -p "$(dirname "$SETTINGS_PATH")"
-cp ../config/vscodesettings.json "$SETTINGS_PATH"
+cp ./config/vscodesettings.json "$SETTINGS_PATH"
 
 SNIPPETS_PATH="$HOME/.config/Code/User/snippets/python.json"
 mkdir -p "$(dirname "$SNIPPETS_PATH")"
-cp ../config/python.json "$SNIPPETS_PATH"
+cp ./config/python.json "$SNIPPETS_PATH"
