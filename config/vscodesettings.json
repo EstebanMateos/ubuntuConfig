@@ -1,0 +1,43 @@
+{
+  "doxdocgen.generic.authorEmail": "esteban.mateos95@gmail.com",
+  "doxdocgen.generic.authorName": "Esteban Mateos",
+  "doxdocgen.generic.commandSuggestionAddPrefix": true,
+  "doxdocgen.file.customTag": [
+    "@file {file}",
+    "@author {author}",
+    "@date {date}",
+    "@email {email}"
+  ],
+  "doxdocgen.generic.dateFormat": "DD-MMM-YYYY",
+  "doxdocgen.file.fileOrder": [
+    "file",
+    "author",
+    "date",
+    "email"
+  ],
+  "doxdocgen.generic.order": [
+    "brief",
+    "param",
+    "return"
+  ],
+  "doxdocgen.generic.paramTemplate": "@param {param}:",
+  "doxdocgen.generic.briefTemplate": "@brief",
+  "doxdocgen.generic.returnTemplate": "@return {type}",
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "clang-format.style": "{ BasedOnStyle: Google, ColumnLimit: 100 }",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "black-formatter.args": [
+    "--line-length=100"
+  ],
+  "autoDocstring.docstringFormat": "google"
+}

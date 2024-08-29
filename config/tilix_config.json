@@ -1,0 +1,17 @@
+[/]
+prompt-on-delete-profile=true
+quake-specific-monitor=0
+theme-variant='dark'
+
+[keybindings]
+app-new-session='disabled'
+app-new-window='disabled'
+session-add-down='<Primary><Shift>t'
+session-add-right='<Primary><Shift>n'
+
+[profiles]
+list=['2b7c4080-0ddd-46c5-8f23-563fd3ba789d']
+
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+login-shell=true
+visible-name='Default'

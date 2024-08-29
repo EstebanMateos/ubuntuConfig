@@ -1,0 +1,24 @@
+{
+	"Python File Header": {
+		"prefix": [
+			"fileheader",
+			"pythonfileheader",
+			"hdr"
+		],
+		"body": [
+			"\"\"\"",
+			"#!/usr/bin/env python3",
+			"# -*- coding: utf-8 -*-",
+			"\"\"\"",
+			"",
+			"\"\"\"",
+			"@file ${TM_FILENAME_BASE}",
+			"@brief Description of the file",
+			"@author Esteban Mateos esteban.mateos95@gmail.com",
+			"@version 1.0",
+			"@date ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+			"\"\"\""
+		],
+		"description": "Inserts a standard Python file header"
+	}
+}

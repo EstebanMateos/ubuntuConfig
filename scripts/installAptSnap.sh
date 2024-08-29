@@ -42,4 +42,5 @@ for package in "${snap_packages[@]}"; do
     fi
 done
 
+sudo apt autoremove
 echo "Done."
