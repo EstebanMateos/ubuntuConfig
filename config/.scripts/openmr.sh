@@ -2,7 +2,7 @@
 
 output=$(cat /tmp/gitoutput)
 
-merge_request_url=$(echo "$output" | grep -oP '(https?://[^\s]+/merge_requests/new[^\s]+)')
+merge_request_url=$(echo "$output" | grep -oP '(https?://[^\s]+/merge_requests/[^\s]+)')
 
 if [[ -n $merge_request_url ]]; then
     echo "Opening Merge Request URL: $merge_request_url"
