@@ -13,4 +13,4 @@ alias gclean="git fetch --prune && git branch --merged | grep -Ev '(^\*|master|m
 alias gp="git push 2>&1 | tee /tmp/gitoutput"
 alias push='git push 2>&1 | tee /tmp/gitoutput'
 alias mr='bash ~/.scripts/openmr.sh'
-eval "$(thefuck --alias)"
+alias fuck='thefuck 2>&1 | tee /tmp/gitoutput'
