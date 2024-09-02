@@ -11,6 +11,7 @@ alias gch="git checkout"
 alias gr="git rebase"
 alias gclean="git fetch --prune && git branch --merged | grep -Ev '(^\*|master|main|dev)' | xargs git branch -d"
 alias gp='git push 2>&1 | tee /tmp/gitoutput'
+alias gpu='git pull'
 alias gpf='git push -f 2>&1 | tee /tmp/gitoutput'
 alias mr='bash ~/.scripts/openmr.sh'
 eval "$(thefuck --alias)"
