@@ -16,3 +16,8 @@ alias gpf='git push -f 2>&1 | tee /tmp/gitoutput'
 alias mr='bash ~/.scripts/openmr.sh'
 eval "$(thefuck --alias)"
 alias fuck='fuck 2>&1 | tee /tmp/gitoutput'
+parse_git_branch() {
+    git branch 2>/dev/null | grep '*' | sed 's/* //'
+}
+
+PS1='\[\e[32m\]\u@\h:\[\e[33m\]\w\[\e[36m\] $(parse_git_branch)\[\e[0m\] $ '
