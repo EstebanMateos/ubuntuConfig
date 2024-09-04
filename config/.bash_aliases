@@ -20,4 +20,4 @@ parse_git_branch() {
     git branch 2>/dev/null | grep '*' | sed 's/* //'
 }
 
-PS1='\[\e[32m\]\u@\h:\[\e[33m\]\w\[\e[36m\] $(parse_git_branch)\[\e[0m\] $ '
+PS1='\[\e[38;5;78m\]\u@\h:\[\e[96m\]\w\[\e[92m\] $(parse_git_branch)\[\e[0m\] $ '
